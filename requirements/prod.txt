@@ -1,0 +1,10 @@
+Flask
+SQLAlchemy
+psycopg2
+pymongo
+gunicorn
+alembic
+requests
+aiohttp
+jsonschema
+flask-inputs
