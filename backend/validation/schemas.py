@@ -36,7 +36,8 @@ covidcase_get = {
         "confirmed__eq": numberOrString,
         "confirmed__lt": numberOrString,
         "confirmed__gt": numberOrString,
-        "page": numberOrString
+        "page": numberOrString,
+        "limit": numberOrString
     },
     "additionalProperties": False
 }
