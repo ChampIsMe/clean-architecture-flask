@@ -35,7 +35,8 @@ covidcase_get = {
         "country__eq": {'type': 'string'},
         "confirmed__eq": numberOrString,
         "confirmed__lt": numberOrString,
-        "confirmed__gt": numberOrString
+        "confirmed__gt": numberOrString,
+        "page": numberOrString
     },
     "additionalProperties": False
 }
